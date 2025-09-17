@@ -37,6 +37,9 @@
 
         public PrintEdition()
         {
+            type = "";
+            name = "";
+            Pages = 0;
         }
 
         public void SetValues(string t, string n, int p)
@@ -51,5 +54,6 @@
         {
             Console.WriteLine($"Тип видання: {Type}");
         }
+
     }
 }
